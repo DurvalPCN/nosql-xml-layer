@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>An Layer that interacts with RaptorDB and XML dbs</h1>
+<h1>An Interactive Layer between NOSQL and XML databases</h1>
 
 The main goal of this project is < to do >.
 
