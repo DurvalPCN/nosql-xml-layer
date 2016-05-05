@@ -1,10 +1,10 @@
 <html>
 <body>
-<h1>An Abstract Layer for NOSQL and XML databases</h1>
+<h1>An Abstract Layer for NoSQL and XML databases</h1>
 
 The main goal of this project is < to do >.
 
-This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/comp309/" target="_blank">Special Topics in Database: Management of Semistructured Data</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4764054Y6" target="_blank">Professor Fabio Coutinho</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
+This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/comp309/" target="_blank">Special Topics in Database: Management of Semistructured Data</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4764054Y6" target="_blank">Professor Fabio Coutinho</a> at <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> of <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
 In the source files, you can find:
 
@@ -15,11 +15,11 @@ In the source files, you can find:
 
 <h2>Used Databases</h2>
 
-<h3>NOSQL databases</h3>
+<h3>NoSQL databases</h3>
 
 <h4>RaptorDB</h4>
 
-RaptorDB is a NoSql, JSON based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query filters.
+RaptorDB is a NoSQL, JSON [X] based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query [X] filters.
 
 To know more about <b>RaptorDB</b>, visit the official website <a href="https://raptordb.codeplex.com" target="_blank">here</a>.
 
@@ -27,7 +27,7 @@ To know more about <b>RaptorDB</b>, visit the official website <a href="https://
 
 <h4>Sedna</h4>
 
-Sedna is a free native XML database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
+Sedna is a free native XML [X] database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C [X] XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
 
 To know more about <b>Sedna</b>, visit the official website: <a href="http://www.sedna.org/" target="_blank">Sedna.org</a>
 
@@ -43,9 +43,24 @@ To do.
 
 To know more about <b>eXist</b>, visit the official website: <a href="http://exist-db.org/" target="_blank">exist-db.org</a>
 
+<h2>Preparing your environment</h2>
+
+To do.
+
+<h3>Microsoft Visual Studio</h3>
+
+To do.
+
+<h3>Databases</h3>
+
+To do.
+
 <h2>References</h2>
 
-[1] To do.
+[X] NoSQL.
+[X] XML
+[X] JSON
+[X] W3C
 
 <h2>Credits</h2>
 
