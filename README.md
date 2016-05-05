@@ -15,7 +15,9 @@ In the source files, you can find:
 
 <h2>Used Databases</h2>
 
-<h3>RaptorDB</h3>
+<h3>NOSQL databases</h3>
+
+<h4>RaptorDB</h4>
 
 RaptorDB is a NoSql, JSON based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query filters.
 
