@@ -1,0 +1,5 @@
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\RaptorDBProgram.dll
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\RaptorDBProgram.pdb
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\obj\Debug\RaptorDBProgram.csprojResolveAssemblyReference.cache
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\obj\Debug\RaptorDBProgram.dll
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\obj\Debug\RaptorDBProgram.pdb

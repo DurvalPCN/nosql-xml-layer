@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<Distaancias>
+<Cidade_mcz>
+<Municipio>Agua Branca</Municipio>
+<Distancia_linha_reta_da_capital_km>248,29</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>295</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 23 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Anadia</Municipio>
+<Distancia_linha_reta_da_capital_km>65,87</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>90,2</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 25 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Arapiraca</Municipio>
+<Distancia_linha_reta_da_capital_km>105,45</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>136</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 7 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Atalaia</Municipio>
+<Distancia_linha_reta_da_capital_km>36,31</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>47,6</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>50 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Barra de Santo Antonio</Municipio>
+<Distancia_linha_reta_da_capital_km>35,1</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>38,8</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>38 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Barra de Sao Miguel</Municipio>
+<Distancia_linha_reta_da_capital_km>27,41</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>37,5</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>38 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Batalha</Municipio>
+<Distancia_linha_reta_da_capital_km>156,34</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>190</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 49 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Belem</Municipio>
+<Distancia_linha_reta_da_capital_km>86,63</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>118</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 57 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Belo Monte</Municipio>
+<Distancia_linha_reta_da_capital_km>173,16</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>217</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 16 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Boca da Mata</Municipio>
+<Distancia_linha_reta_da_capital_km>55,3</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>76,4</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 13 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Branquinha</Municipio>
+<Distancia_linha_reta_da_capital_km>57,31</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>68,3</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 4 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Cacimbinhas</Municipio>
+<Distancia_linha_reta_da_capital_km>143,48</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>177</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 37 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Cajueiro</Municipio>
+<Distancia_linha_reta_da_capital_km>56,45</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>68,4</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 9 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Campestre</Municipio>
+<Distancia_linha_reta_da_capital_km>90,62</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>118</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 47 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Campo Alegre</Municipio>
+<Distancia_linha_reta_da_capital_km>71,97</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>96,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 30 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Campo Grande</Municipio>
+<Distancia_linha_reta_da_capital_km>120,55</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>174</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 40 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Canapi</Municipio>
+<Distancia_linha_reta_da_capital_km>216,41</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>256</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 44 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Capela</Municipio>
+<Distancia_linha_reta_da_capital_km>48,76</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>58,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>59 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Carneiros</Municipio>
+<Distancia_linha_reta_da_capital_km>184,09</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>231</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 24 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Cha Preta</Municipio>
+<Distancia_linha_reta_da_capital_km>78,2</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>101</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 37 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Coite do Noia</Municipio>
+<Distancia_linha_reta_da_capital_km>96,54</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>126</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 3 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Colonia Leopoldina</Municipio>
+<Distancia_linha_reta_da_capital_km>81,95</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>116</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 43 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Coqueiro Seco</Municipio>
+<Distancia_linha_reta_da_capital_km>10,05</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>32,9</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>34 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Coruripe</Municipio>
+<Distancia_linha_reta_da_capital_km>73,57</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>92,8</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 26 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Craibas</Municipio>
+<Distancia_linha_reta_da_capital_km>116,51</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>153</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 20 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Delmiro Gouveia</Municipio>
+<Distancia_linha_reta_da_capital_km>253,13</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>298</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 21 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Dois Riachos</Municipio>
+<Distancia_linha_reta_da_capital_km>155,2</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>190</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 48 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Estrela de Alagoas</Municipio>
+<Distancia_linha_reta_da_capital_km>119,43</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>152</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 17 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Feira Grande</Municipio>
+<Distancia_linha_reta_da_capital_km>109,73</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>150</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 15 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Feliz Deserto</Municipio>
+<Distancia_linha_reta_da_capital_km>96,87</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>122</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 49 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Flexeiras</Municipio>
+<Distancia_linha_reta_da_capital_km>41,79</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>62,4</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>58 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Girau do Ponciano</Municipio>
+<Distancia_linha_reta_da_capital_km>125,88</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>162</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 26 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Ibateguara</Municipio>
+<Distancia_linha_reta_da_capital_km>78,83</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>118</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 48 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Igaci</Municipio>
+<Distancia_linha_reta_da_capital_km>102,64</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>134</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 9 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Igreja Nova</Municipio>
+<Distancia_linha_reta_da_capital_km>116,89</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>164</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 25 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Inhapi</Municipio>
+<Distancia_linha_reta_da_capital_km>228,9</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>273</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 58 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Jacare dos Homens</Municipio>
+<Distancia_linha_reta_da_capital_km>164,52</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>199</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 57 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Jacuipe</Municipio>
+<Distancia_linha_reta_da_capital_km>94,24</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>125</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 51 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Japaratinga</Municipio>
+<Distancia_linha_reta_da_capital_km>79,4</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>117</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 46 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Jaramataia</Municipio>
+<Distancia_linha_reta_da_capital_km>142,23</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>176</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 39 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Jequia da Praia</Municipio>
+<Distancia_linha_reta_da_capital_km>53,13</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>68,8</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 4 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Joaquim Gomes</Municipio>
+<Distancia_linha_reta_da_capital_km>57,67</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>75</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 10 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Jundia</Municipio>
+<Distancia_linha_reta_da_capital_km>80,74</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>115</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 43 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Junqueiro</Municipio>
+<Distancia_linha_reta_da_capital_km>89,38</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>121</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 53 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Lagoa da Canoa</Municipio>
+<Distancia_linha_reta_da_capital_km>115,12</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>150</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 16 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Limoeiro de Anadia</Municipio>
+<Distancia_linha_reta_da_capital_km>88,75</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>115</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 46 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Maceio</Municipio>
+<Distancia_linha_reta_da_capital_km>0</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>0</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>0 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Major Izidoro</Municipio>
+<Distancia_linha_reta_da_capital_km>140,93</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>192</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 50 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Mar Vermelho</Municipio>
+<Distancia_linha_reta_da_capital_km>77,91</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>106</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 45 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Maragogi</Municipio>
+<Distancia_linha_reta_da_capital_km>89,12</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>127</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 54 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Maravilha</Municipio>
+<Distancia_linha_reta_da_capital_km>186,44</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>231</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 24 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Marechal Deodoro</Municipio>
+<Distancia_linha_reta_da_capital_km>21,71</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>35,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>39 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Maribondo</Municipio>
+<Distancia_linha_reta_da_capital_km>65,96</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>88,5</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 22 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Mata Grande</Municipio>
+<Distancia_linha_reta_da_capital_km>229,99</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>287</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 11 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Matriz do Camaragibe</Municipio>
+<Distancia_linha_reta_da_capital_km>58,71</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>76</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 11 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Messias</Municipio>
+<Distancia_linha_reta_da_capital_km>31,86</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>35,4</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>36 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Minador do Negrao</Municipio>
+<Distancia_linha_reta_da_capital_km>132,88</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>169</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 36 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Monteiropolis</Municipio>
+<Distancia_linha_reta_da_capital_km>169,3</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>206</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 5 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Murici</Municipio>
+<Distancia_linha_reta_da_capital_km>46</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>54,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>53 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Novo Lino</Municipio>
+<Distancia_linha_reta_da_capital_km>78,91</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>100</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 29 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Olho dagua das Flores</Municipio>
+<Distancia_linha_reta_da_capital_km>174,56</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>213</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 10 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Olho dagua do Casado</Municipio>
+<Distancia_linha_reta_da_capital_km>233,43</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>275</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 2 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Olho dagua Grande</Municipio>
+<Distancia_linha_reta_da_capital_km>129,05</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>176</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 41 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Olivenca</Municipio>
+<Distancia_linha_reta_da_capital_km>163,84</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>210</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 6 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Ouro Branco</Municipio>
+<Distancia_linha_reta_da_capital_km>189,14</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>238</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 31 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Palestina</Municipio>
+<Distancia_linha_reta_da_capital_km>178,95</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>216</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 24 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Palmeira dos indios</Municipio>
+<Distancia_linha_reta_da_capital_km>105,03</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>137</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 4 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Pao de Acucar</Municipio>
+<Distancia_linha_reta_da_capital_km>190,29</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>243</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 44 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Pariconha</Municipio>
+<Distancia_linha_reta_da_capital_km>255,25</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>301</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 27 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Paripueira</Municipio>
+<Distancia_linha_reta_da_capital_km>26,94</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>29,4</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>31 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Passo de Camaragibe</Municipio>
+<Distancia_linha_reta_da_capital_km>51,28</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>72,3</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 6 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Paulo Jacinto</Municipio>
+<Distancia_linha_reta_da_capital_km>78,81</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>102</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 38 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Penedo</Municipio>
+<Distancia_linha_reta_da_capital_km>119,21</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>152</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 19 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Piacabucu</Municipio>
+<Distancia_linha_reta_da_capital_km>113,95</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>141</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 7 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Pilar</Municipio>
+<Distancia_linha_reta_da_capital_km>27,49</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>37,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>40 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Pindoba</Municipio>
+<Distancia_linha_reta_da_capital_km>66,46</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>88,6</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 37 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Piranhas</Municipio>
+<Distancia_linha_reta_da_capital_km>225,33</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>278</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>4 horas 3 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Poco das Trincheiras</Municipio>
+<Distancia_linha_reta_da_capital_km>177,27</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>218</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 11 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Porto Calvo</Municipio>
+<Distancia_linha_reta_da_capital_km>74,72</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>98,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 29 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Porto de Pedras</Municipio>
+<Distancia_linha_reta_da_capital_km>70,24</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>109</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 41 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Porto Real do Colegio</Municipio>
+<Distancia_linha_reta_da_capital_km>137,4</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>176</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 36 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Quebrangulo</Municipio>
+<Distancia_linha_reta_da_capital_km>91,21</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>118</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 53 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Rio Largo</Municipio>
+<Distancia_linha_reta_da_capital_km>23,9</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>29,8</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>35 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Roteiro</Municipio>
+<Distancia_linha_reta_da_capital_km>36,08</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>57,9</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 1 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Santa Luzia do Norte</Municipio>
+<Distancia_linha_reta_da_capital_km>13,57</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>26,5</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>29 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Santana do Ipanema</Municipio>
+<Distancia_linha_reta_da_capital_km>171,85</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>207</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 3 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Santana do Mundau</Municipio>
+<Distancia_linha_reta_da_capital_km>77,18</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>105</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 38 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Bras</Municipio>
+<Distancia_linha_reta_da_capital_km>140,44</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>187</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 48 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Jose da Laje</Municipio>
+<Distancia_linha_reta_da_capital_km>80,26</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>99,1</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 31 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Jose da Tapera</Municipio>
+<Distancia_linha_reta_da_capital_km>184,08</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>223</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 18 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Luis do Quitunde</Municipio>
+<Distancia_linha_reta_da_capital_km>40,3</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>53</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>50 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Miguel dos Campos</Municipio>
+<Distancia_linha_reta_da_capital_km>45,15</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>63,6</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 3 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Miguel dos Milagres</Municipio>
+<Distancia_linha_reta_da_capital_km>56,16</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>93,6</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 25 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Sao Sebastiao</Municipio>
+<Distancia_linha_reta_da_capital_km>97,75</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>131</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 58 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Satuba</Municipio>
+<Distancia_linha_reta_da_capital_km>15,47</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>21,2</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>23 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Senador Rui Palmeira</Municipio>
+<Distancia_linha_reta_da_capital_km>193,03</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>239</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>3 horas 32 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Tanque dArca</Municipio>
+<Distancia_linha_reta_da_capital_km>80,48</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>108</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 41 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Taquarana</Municipio>
+<Distancia_linha_reta_da_capital_km>86,07</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>114</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 45 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Teotonio Vilela</Municipio>
+<Distancia_linha_reta_da_capital_km>76,98</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>104</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 37 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Traipu</Municipio>
+<Distancia_linha_reta_da_capital_km>146,45</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>190</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>2 horas 49 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Uniao dos Palmares</Municipio>
+<Distancia_linha_reta_da_capital_km>64,53</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>78,7</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 14 min</Tempo_conducao>
+</Cidade_mcz>
+<Cidade_mcz>
+<Municipio>Vicosa</Municipio>
+<Distancia_linha_reta_da_capital_km>66,54</Distancia_linha_reta_da_capital_km>
+<Distancia_de_conducao_da_capital_km>83,1</Distancia_de_conducao_da_capital_km>
+<Tempo_conducao>1 hora 21 min</Tempo_conducao>
+</Cidade_mcz>
+</Distaancias>

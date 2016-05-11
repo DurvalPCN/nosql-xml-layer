@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Data.Sedna", "System
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSedna", "WinSedna\WinSedna.csproj", "{5DF6A967-11FA-40C6-8039-A29055B9B777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaptorDBBackground", "RaptorDBProgram\RaptorDBBackground.csproj", "{27235C83-8086-4BFD-84AF-7B7A263A4602}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{5DF6A967-11FA-40C6-8039-A29055B9B777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF6A967-11FA-40C6-8039-A29055B9B777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DF6A967-11FA-40C6-8039-A29055B9B777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27235C83-8086-4BFD-84AF-7B7A263A4602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27235C83-8086-4BFD-84AF-7B7A263A4602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27235C83-8086-4BFD-84AF-7B7A263A4602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27235C83-8086-4BFD-84AF-7B7A263A4602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\RaptorDBProgram.dll
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\RaptorDBProgram.pdb
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\obj\Debug\RaptorDBProgram.dll
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\obj\Debug\RaptorDBProgram.pdb
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\Newtonsoft.Json.dll
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\asl\OneDrive\Documentos\GitHub\nosql-xml-layer\RaptorDBProgram\bin\Debug\Newtonsoft.Json.xml

@@ -25,7 +25,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace Sedna {
+namespace Sedna
+{
     public class MainForm : Form {
 
         //--- Class Fields ---
@@ -70,6 +71,7 @@ namespace Sedna {
         private RadioButton raptorCheck;
         private RadioButton sednaRaptorCheck;
         private SednaSession _session;
+        private RaptorDBBackground.RaptorDBProgram _raptorDBProgram;
 
         //--- Constructors ---
         public MainForm() {
@@ -104,6 +106,7 @@ namespace Sedna {
             Login login = new Login();
             if(login.ShowDialog(this) == DialogResult.OK) {
                 _session = login.GetSession();
+                _raptorDBProgram = new RaptorDBBackground.RaptorDBProgram();
             } else {
                 Application.Exit();
             }
@@ -352,13 +355,35 @@ namespace Sedna {
         }
 
         private void BulkLoadButton_Click(object sender, EventArgs e) {
-            UploadForm form = new UploadForm(_session);
-            form.ShowDialog(this);
-        }
+            //verifica qual radio_button esta selecionado
+            if (sednaCheck.Checked)//faz upload para o banco Sedna
+            {
+                UploadForm form = new UploadForm(_session);
+                form.ShowDialog(this);
+            }
+            else
+            {
+                if (raptorCheck.Checked)//faz upload para o banco RaptorDB
+                {
+                    OpenFileDialog openFileDialog1 = new OpenFileDialog();
+                    openFileDialog1.Filter = "Arquivo json|*.json";
+
+                    if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                    {
+                        string filePath = openFileDialog1.FileName;
+
+                        ResultTextBox.Text //= filePath+" Soma= "+_raptorDBProgram.testSoma(13,57);
+
+                      = _raptorDBProgram.insertJson(filePath);//Soh para testes
+                       
+                    }
+                }
+            }
+            }
 
         private void RunQueryButton_Click(object sender, EventArgs e) {
             //verifica qual radio_button esta selecionado
-            if (sednaCheck.Checked)//v
+            if (sednaCheck.Checked)//consulta no banco Sedna
             {
                 try
                 {
@@ -375,13 +400,13 @@ namespace Sedna {
             }
             else
             {
-                if (raptorCheck.Checked)
+                if (raptorCheck.Checked)//Consulta no banco RaptorDB
                 {
                     ResultTextBox.Text = "TODO raptor selecionado";
                 }
                 else
                 {
-                    if(sednaRaptorCheck.Checked)
+                    if(sednaRaptorCheck.Checked)//Consulta em ambos os BDs
                     {
                         ResultTextBox.Text = "TODO sedna+raptordb selecionado";
                     }
