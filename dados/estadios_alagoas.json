@@ -1,0 +1,172 @@
+{
+  "Futebol": {
+    "Estadios": [
+      {
+        "Nome": "Estadio Jose Gomes da Costa",
+        "Cidade": "Murici",
+        "Propriedade": "Particular",
+        "Capacidade": "3000",
+        "Longitude": "-35.944122",
+        "Latitude": "-9.312147"
+      },
+      {
+        "Nome": "Estadio Olival Elias de Moraes",
+        "Cidade": "Boca da Mata",
+        "Propriedade": "Particular",
+        "Capacidade": "2500",
+        "Longitude": "-36.210950",
+        "Latitude": "-9.643294"
+      },
+      {
+        "Nome": "Estadio Edson Matias",
+        "Cidade": "Olho D'Agua das Flores",
+        "Propriedade": "Particular",
+        "Capacidade": "3000",
+        "Longitude": "-37.293899",
+        "Latitude": "-9.530301"
+      },
+      {
+        "Nome": "Estadio Alfredo Leahy",
+        "Cidade": "Penedo",
+        "Propriedade": "Municipal",
+        "Capacidade": "2000",
+        "Longitude": "-36.571285",
+        "Latitude": "-10.285275"
+      },
+      {
+        "Nome": "Estadio Adalberto Cavalcante",
+        "Cidade": "Porto Real do Colegio",
+        "Capacidade": "2000",
+        "Longitude": "-36.832239",
+        "Latitude": "-10.188196"
+      },
+      {
+        "Nome": "Estadio Governador Arnon de Mello",
+        "Cidade": "Santana de Ipanema",
+        "Propriedade": "Ipanema Atletico Clube",
+        "Capacidade": "3000",
+        "Longitude": "-37.250310",
+        "Latitude": "-9.364155"
+      },
+      {
+        "Nome": "Estadio Municipal Rubens Canuto",
+        "Cidade": "Pilar",
+        "Propriedade": "Municipal",
+        "Capacidade": "2000",
+        "Longitude": "-35.961292",
+        "Latitude": "-9.612136"
+      },
+      {
+        "Nome": "Estadio Municipal Teotonio Vilela",
+        "Cidade": "Vicosa",
+        "Propriedade": "Municipal",
+        "Capacidade": "10000",
+        "Longitude": "-36.234758",
+        "Latitude": "-9.375464"
+      },
+      {
+        "Nome": "Estadio Municipal Manoel Moreira",
+        "Cidade": "Capela",
+        "Propriedade": "Municipal",
+        "Capacidade": "5000",
+        "Longitude": "-36.081634",
+        "Latitude": "-9.409689"
+      },
+      {
+        "Nome": "Estadio Orlando Gomes",
+        "Cidade": "Uniao dos Palmares",
+        "Propriedade": "Municipal",
+        "Capacidade": "4000",
+        "Longitude": "-36.024042",
+        "Latitude": "-9.156926"
+      },
+      {
+        "Nome": "Estadio Municipal Gerson Amaral",
+        "Cidade": "Coruripe",
+        "Propriedade": "Municipal",
+        "Capacidade": "7000",
+        "Longitude": "-36.181120",
+        "Latitude": "-10.117945"
+      },
+      {
+        "Nome": "Estadio Municipal Juca Sampaio",
+        "Cidade": "Palmeira dos Indios",
+        "Capacidade": "8000",
+        "Longitude": "-36.635317",
+        "Latitude": "-9.413206"
+      },
+      {
+        "Nome": "Estadio Municipal Luis de Albuquerque Pontes",
+        "Cidade": "Atalaia",
+        "Propriedade": "Municipal",
+        "Capacidade": "4000",
+        "Longitude": "-36.024288",
+        "Latitude": "-9.504851"
+      },
+      {
+        "Nome": "Estadio Edivanil Cavalcante Navarro",
+        "Cidade": "Matriz de Camaragibe",
+        "Propriedade": "Municipal",
+        "Capacidade": "1500",
+        "Longitude": "-35.533148",
+        "Latitude": "-9.155256"
+      },
+      {
+        "Nome": "Estadio Municipal Eduardo de Melo Goncalves",
+        "Cidade": "Sao Luis do Quitunde",
+        "Propriedade": "Municipal",
+        "Capacidade": "1500",
+        "Longitude": "-35.560522",
+        "Latitude": "-9.314812"
+      },
+      {
+        "Nome": "Estadio Municipal Manoel Ferreira de Amorim",
+        "Cidade": "Sao Miguel dos Campos",
+        "Propriedade": "Municipal",
+        "Capacidade": "5000",
+        "Longitude": "-36.099503",
+        "Latitude": "-9.792850"
+      },
+      {
+        "Nome": "Estadio Cleto Marques Luz",
+        "Cidade": "Maceio",
+        "Propriedade": "Municipal",
+        "Capacidade": "4000",
+        "Longitude": "-35.754003",
+        "Latitude": "-9.569640"
+      },
+      {
+        "Nome": "Estadio Nelson Peixoto Feijo",
+        "Cidade": "Maceio",
+        "Propriedade": "Particular",
+        "Capacidade": "4000",
+        "Longitude": "-35.749912",
+        "Latitude": "-9.554326"
+      },
+      {
+        "Nome": "Estadio Coaracy da Mata Fonseca",
+        "Cidade": "Arapiraca",
+        "Propriedade": "Municipal",
+        "Capacidade": "12500",
+        "Longitude": "-36.666797",
+        "Latitude": "-9.747539"
+      },
+      {
+        "Nome": "Estadio Rei Pele (Maceio)",
+        "Cidade": "Maceio",
+        "Propriedade": "Estadual",
+        "Capacidade": "18801",
+        "Longitude": "-35.759360",
+        "Latitude": "-9.671165"
+      },
+      {
+        "Nome": "Estadio Gustavo Paiva",
+        "Cidade": "Maceio",
+        "Propriedade": "Centro Sportivo Alagoano (CSA)",
+        "Capacidade": "4000",
+        "Longitude": "-35.747762",
+        "Latitude": "-9.637734"
+      }
+    ]
+  }
+}

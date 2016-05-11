@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<Estadios>
+<Estadio>
+<Nome>Estadio Jose Gomes da Costa</Nome>
+<Cidade>Murici</Cidade>
+<Propriedade>Particular</Propriedade>
+<Capacidade>3000</Capacidade>
+<Longitude>-35.944122</Longitude>
+<Latitude>-9.312147</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Olival Elias de Moraes</Nome>
+<Cidade>Boca da Mata</Cidade>
+<Propriedade>Particular</Propriedade>
+<Capacidade>2500</Capacidade>
+<Longitude>-36.210950</Longitude>
+<Latitude>-9.643294</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Edson Matias</Nome>
+<Cidade>Olho D&apos;Agua das Flores</Cidade>
+<Propriedade>Particular</Propriedade>
+<Capacidade>3000</Capacidade>
+<Longitude>-37.293899</Longitude>
+<Latitude>-9.530301</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Alfredo Leahy</Nome>
+<Cidade>Penedo</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>2000</Capacidade>
+<Longitude>-36.571285</Longitude>
+<Latitude>-10.285275</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Adalberto Cavalcante</Nome>
+<Cidade>Porto Real do Colegio</Cidade>
+<Propriedade></Propriedade>
+<Capacidade>2000</Capacidade>
+<Longitude>-36.832239</Longitude>
+<Latitude>-10.188196</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Governador Arnon de Mello</Nome>
+<Cidade>Santana de Ipanema</Cidade>
+<Propriedade>Ipanema Atletico Clube</Propriedade>
+<Capacidade>3000</Capacidade>
+<Longitude>-37.250310</Longitude>
+<Latitude>-9.364155</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Rubens Canuto</Nome>
+<Cidade>Pilar</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>2000</Capacidade>
+<Longitude>-35.961292</Longitude>
+<Latitude>-9.612136</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Teotonio Vilela</Nome>
+<Cidade>Vicosa</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>10000</Capacidade>
+<Longitude>-36.234758</Longitude>
+<Latitude>-9.375464</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Manoel Moreira</Nome>
+<Cidade>Capela</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>5000</Capacidade>
+<Longitude>-36.081634</Longitude>
+<Latitude>-9.409689</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Orlando Gomes</Nome>
+<Cidade>Uniao dos Palmares</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>4000</Capacidade>
+<Longitude>-36.024042</Longitude>
+<Latitude>-9.156926</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Gerson Amaral</Nome>
+<Cidade>Coruripe</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>7000</Capacidade>
+<Longitude>-36.181120</Longitude>
+<Latitude>-10.117945</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Juca Sampaio</Nome>
+<Cidade>Palmeira dos Indios</Cidade>
+<Propriedade></Propriedade>
+<Capacidade>8000</Capacidade>
+<Longitude>-36.635317</Longitude>
+<Latitude>-9.413206</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Luis de Albuquerque Pontes</Nome>
+<Cidade>Atalaia</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>4000</Capacidade>
+<Longitude>-36.024288</Longitude>
+<Latitude>-9.504851</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Edivanil Cavalcante Navarro</Nome>
+<Cidade>Matriz de Camaragibe</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>1500</Capacidade>
+<Longitude>-35.533148</Longitude>
+<Latitude>-9.155256</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Eduardo de Melo Goncalves</Nome>
+<Cidade>Sao Luis do Quitunde</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>1500</Capacidade>
+<Longitude>-35.560522</Longitude>
+<Latitude>-9.314812</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Municipal Manoel Ferreira de Amorim</Nome>
+<Cidade>Sao Miguel dos Campos</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>5000</Capacidade>
+<Longitude>-36.099503</Longitude>
+<Latitude>-9.792850</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Cleto Marques Luz</Nome>
+<Cidade>Maceio</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>4000</Capacidade>
+<Longitude>-35.754003</Longitude>
+<Latitude>-9.569640</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Nelson Peixoto Feijo</Nome>
+<Cidade>Maceio</Cidade>
+<Propriedade>Particular</Propriedade>
+<Capacidade>4000</Capacidade>
+<Longitude>-35.749912</Longitude>
+<Latitude>-9.554326</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Coaracy da Mata Fonseca</Nome>
+<Cidade>Arapiraca</Cidade>
+<Propriedade>Municipal</Propriedade>
+<Capacidade>12500</Capacidade>
+<Longitude>-36.666797</Longitude>
+<Latitude>-9.747539</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Rei Pele (Maceio)</Nome>
+<Cidade>Maceio</Cidade>
+<Propriedade>Estadual</Propriedade>
+<Capacidade>18801</Capacidade>
+<Longitude>-35.759360</Longitude>
+<Latitude>-9.671165</Latitude>
+</Estadio>
+<Estadio>
+<Nome>Estadio Gustavo Paiva</Nome>
+<Cidade>Maceio</Cidade>
+<Propriedade>Centro Sportivo Alagoano (CSA)</Propriedade>
+<Capacidade>4000</Capacidade>
+<Longitude>-35.747762</Longitude>
+<Latitude>-9.637734</Latitude>
+</Estadio>
+</Estadios>

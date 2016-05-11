@@ -66,6 +66,9 @@ namespace Sedna {
         private CheckBox AlwaysCommitCheckbox;
         private Button RollbackTransaction;
         private System.ComponentModel.Container components;
+        private RadioButton sednaCheck;
+        private RadioButton raptorCheck;
+        private RadioButton sednaRaptorCheck;
         private SednaSession _session;
 
         //--- Constructors ---
@@ -128,14 +131,17 @@ namespace Sedna {
             this.CommandsDropDown = new System.Windows.Forms.ComboBox();
             this.AlwaysCommitCheckbox = new System.Windows.Forms.CheckBox();
             this.RollbackTransaction = new System.Windows.Forms.Button();
+            this.sednaCheck = new System.Windows.Forms.RadioButton();
+            this.raptorCheck = new System.Windows.Forms.RadioButton();
+            this.sednaRaptorCheck = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // QueryTextBox
             // 
             this.QueryTextBox.AcceptsReturn = true;
             this.QueryTextBox.AcceptsTab = true;
-            this.QueryTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.QueryTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.QueryTextBox.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QueryTextBox.Location = new System.Drawing.Point(8, 27);
             this.QueryTextBox.Multiline = true;
@@ -147,9 +153,9 @@ namespace Sedna {
             // 
             // ResultTextBox
             // 
-            this.ResultTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.ResultTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ResultTextBox.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultTextBox.Location = new System.Drawing.Point(8, 215);
             this.ResultTextBox.Multiline = true;
@@ -230,8 +236,8 @@ namespace Sedna {
             // 
             // CommandsDropDown
             // 
-            this.CommandsDropDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.CommandsDropDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.CommandsDropDown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CommandsDropDown.DropDownWidth = 300;
             this.CommandsDropDown.Location = new System.Drawing.Point(296, 4);
@@ -259,11 +265,47 @@ namespace Sedna {
             this.RollbackTransaction.Text = "&Rollback Transaction";
             this.RollbackTransaction.Click += new System.EventHandler(this.RollbackTransaction_Click);
             // 
+            // sednaCheck
+            // 
+            this.sednaCheck.AutoSize = true;
+            this.sednaCheck.Checked = true;
+            this.sednaCheck.Location = new System.Drawing.Point(142, 160);
+            this.sednaCheck.Name = "sednaCheck";
+            this.sednaCheck.Size = new System.Drawing.Size(71, 17);
+            this.sednaCheck.TabIndex = 11;
+            this.sednaCheck.TabStop = true;
+            this.sednaCheck.Text = "SednaDB";
+            this.sednaCheck.UseVisualStyleBackColor = true;
+            this.sednaCheck.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // raptorCheck
+            // 
+            this.raptorCheck.AutoSize = true;
+            this.raptorCheck.Location = new System.Drawing.Point(141, 176);
+            this.raptorCheck.Name = "raptorCheck";
+            this.raptorCheck.Size = new System.Drawing.Size(72, 17);
+            this.raptorCheck.TabIndex = 12;
+            this.raptorCheck.Text = "RaptorDB";
+            this.raptorCheck.UseVisualStyleBackColor = true;
+            // 
+            // sednaRaptorCheck
+            // 
+            this.sednaRaptorCheck.AutoSize = true;
+            this.sednaRaptorCheck.Location = new System.Drawing.Point(141, 192);
+            this.sednaRaptorCheck.Name = "sednaRaptorCheck";
+            this.sednaRaptorCheck.Size = new System.Drawing.Size(124, 17);
+            this.sednaRaptorCheck.TabIndex = 13;
+            this.sednaRaptorCheck.Text = "SednaDB+RaptorDB";
+            this.sednaRaptorCheck.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AcceptButton = this.RunQueryButton;
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(604, 459);
+            this.Controls.Add(this.sednaRaptorCheck);
+            this.Controls.Add(this.raptorCheck);
+            this.Controls.Add(this.sednaCheck);
             this.Controls.Add(this.AlwaysCommitCheckbox);
             this.Controls.Add(this.CommandsDropDown);
             this.Controls.Add(this.label1);
@@ -278,8 +320,8 @@ namespace Sedna {
             this.Controls.Add(this.RollbackTransaction);
             this.Name = "MainForm";
             this.Text = "Sedna Test";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.Closing += new System.ComponentModel.CancelEventHandler(this.MainForm_Closing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,13 +357,35 @@ namespace Sedna {
         }
 
         private void RunQueryButton_Click(object sender, EventArgs e) {
-            try {
-                ResultTextBox.Text = ExecuteReadAll(QueryTextBox.Text);
-                if(_session.HasTransaction && _session.HasUpdates && AlwaysCommitCheckbox.Checked) {
-                    _session.CommitTransaction();
+            //verifica qual radio_button esta selecionado
+            if (sednaCheck.Checked)//v
+            {
+                try
+                {
+                    ResultTextBox.Text = ExecuteReadAll(QueryTextBox.Text);
+                    if (_session.HasTransaction && _session.HasUpdates && AlwaysCommitCheckbox.Checked)
+                    {
+                        _session.CommitTransaction();
+                    }
                 }
-            } catch(Exception ex) {
-                ReportError("Unable to execute query or update", ex);
+                catch (Exception ex)
+                {
+                    ReportError("Unable to execute query or update", ex);
+                }
+            }
+            else
+            {
+                if (raptorCheck.Checked)
+                {
+                    ResultTextBox.Text = "TODO raptor selecionado";
+                }
+                else
+                {
+                    if(sednaRaptorCheck.Checked)
+                    {
+                        ResultTextBox.Text = "TODO sedna+raptordb selecionado";
+                    }
+                }
             }
             QueryTextBox.SelectAll();
             QueryTextBox.Focus();
@@ -372,6 +436,11 @@ namespace Sedna {
 
         private void CommandsDropDown_SelectedIndexChanged(object sender, EventArgs e) {
             QueryTextBox.Text = CommandsDropDown.Text;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
