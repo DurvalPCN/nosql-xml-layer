@@ -12,21 +12,27 @@ namespace RaptorDBBackground
 {
     public class RaptorDBProgram
     {
-        public int testSoma(int a, int b)
+        static RaptorDB.RaptorDB rdb;//1 instancia
+
+        public RaptorDBProgram()
         {
-            return a + b;
+            rdb = RaptorDB.RaptorDB.Open("data"); //cria uma pasta "data" ao lado do executavel   
+            RaptorDB.Global.RequirePrimaryView = false;
+
+            rdb.RegisterView(new DistanciasView());
+                
         }
 
-        public String insertJson(string filePath)
+        public string insertJson(string filePath)
         {
             using (StreamReader reader =  new StreamReader(filePath))
             {
-                String json = reader.ReadToEnd();
+                string json = reader.ReadToEnd();
 
                 DataSet dataset = JsonConvert.DeserializeObject<DataSet>(json);
                 DataTable dataTable = dataset.Tables["Distancias"];
 
-                String cidades = "";
+                string texto = "";
 
                 foreach(DataRow row in dataTable.Rows)
                 {
@@ -35,13 +41,35 @@ namespace RaptorDBBackground
                     dado.Distancia_linha_reta_da_capital_km = row["Distancia_linha_reta_da_capital_km"].ToString();
                     dado.Distancia_de_conducao_da_capital_km = row["Distancia_de_conducao_da_capital_km"].ToString();
                     dado.Tempo_conducao = row["Tempo_conducao"].ToString();
+                    
 
-                    cidades += dado.Distancia_de_conducao_da_capital_km+" ";
+                    bool isSalvo =rdb.Save(dado.docid, dado);
+                    //rdb.Delete(dado.docid);
+
+                    //teste
+                    //    var result = rdb.Query<RowSchema>(x => x.Municipio == "Maceio");
+
+                    if (isSalvo)
+                    {
+                        texto = "O documento foi inserido com sucesso!";
+                    }
+                    //texto = isSalvo.ToString();//fastJSON.JSON.ToNiceJSON(result.Rows, new fastJSON.JSONParameters { UseExtensions = false, UseFastGuid = false });
+
+                    /* var q = rdb.Query(typeof(DistanciasToMaceio), // call by the view type or the primary document type
+                 (DistanciasToMaceio s) => ( s.Municipio == "3"));
+
+                     var result = rdb.Query(typeof(DistanciasToMaceio), (DistanciasToMaceio distancia) => (distancia.Municipio == "Maceio"));
+               */
+
                 }
 
-                return cidades;
+                return texto;
             }
            
+        }
+        public void shutdown()
+        {
+            rdb.Shutdown();
         }
     }
 }

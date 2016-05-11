@@ -36,6 +36,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="RaptorDB">
+      <HintPath>..\..\..\..\..\Documents\GitB\raptordb\RaptorDB.dll</HintPath>
+    </Reference>
+    <Reference Include="RaptorDB.Common">
+      <HintPath>..\..\..\..\..\Documents\GitB\raptordb\RaptorDB.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DistanciasToMaceio.cs" />
+    <Compile Include="DistanciasView.cs" />
     <Compile Include="RaptorDBProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

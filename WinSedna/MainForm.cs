@@ -439,6 +439,7 @@ namespace Sedna
         }
 
         private void MainForm_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
+            _raptorDBProgram.shutdown();
             if(_session.HasTransaction && _session.HasUpdates) {
                 DialogResult res = MessageBox.Show(this, "A transaction is still open in this session. Commit the transaction?", "Transaction Pending", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
                 if(res == DialogResult.Yes) {
