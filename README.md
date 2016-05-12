@@ -2,9 +2,9 @@
 <body>
 <h1>An Abstract Layer for NoSQL and XML databases</h1>
 
-The main goal of this project is < to do >.
+The main goal of this project is to develop an abstract layer that can connect with different databases (being NoSQL [1] or XML [2]), able to interact in real time with its data, inserting, consulting or editing.
 
-This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/comp309/" target="_blank">Special Topics in Database: Management of Semistructured Data</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4764054Y6" target="_blank">Professor Fabio Coutinho</a> at <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> of <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
+This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/comp309/" target="_blank">Special Topics in Database: Management of Semistructured Data</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4764054Y6" target="_blank">Professor Fabio Coutinho</a> and available at <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/ciencia-da-computacao' target='_blank'>Computer Science</a> and <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/engenharia-de-computacao' target='_blank'>Computer Engineering</a> degrees of the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
 In the source files, you can find:
 
@@ -13,13 +13,15 @@ In the source files, you can find:
 	<li>to do</li>
 </ul>
 
+Feel 
+
 <h2>Used Databases</h2>
 
 <h3>NoSQL databases</h3>
 
 <h4>RaptorDB</h4>
 
-RaptorDB is a NoSQL, JSON [X] based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query [X] filters.
+RaptorDB is a NoSQL, JSON [3] based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query [X] filters.
 
 To know more about <b>RaptorDB</b>, visit the official website <a href="https://raptordb.codeplex.com" target="_blank">here</a>.
 
@@ -27,7 +29,7 @@ To know more about <b>RaptorDB</b>, visit the official website <a href="https://
 
 <h4>Sedna</h4>
 
-Sedna is a free native XML [X] database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C [X] XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
+Sedna is a free native XML database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C [X] XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
 
 To know more about <b>Sedna</b>, visit the official website: <a href="http://www.sedna.org/" target="_blank">Sedna.org</a>
 
@@ -55,12 +57,32 @@ To do.
 
 To do.
 
+<h2>Queries in the Abstract Layer</h2>
+
+For < consulta >,:
+
+SELECT * FROM doc("futebol")/Estadios WHERE Cidade = '@cidade'
+
+"{
+	'estadio': {
+		'nome': query<sedna>/@Nome,	
+		'propriedade': query<sedna>/@Propriedade,
+		'capacidade': query<sedna>/@Capacidade,
+		'longitude': query<sedna>/@Longitude,
+		'lagitude': query<sedna>/@Lagitude,
+		'cidade': {
+			'name': query<sedna>/@Cidade,
+			<EXTRACAO JSON>
+		}
+	}
+}"
+
 <h2>References</h2>
 
-[X] NoSQL.
-[X] XML
-[X] JSON
-[X] W3C
+[X] NoSQL <br>
+[X] XML <br>
+[X] JSON <br>
+[X] W3C <br>	
 
 <h2>Credits</h2>
 
