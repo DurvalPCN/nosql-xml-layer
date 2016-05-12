@@ -2,7 +2,7 @@
 <body>
 <h1>An Abstract Layer for NoSQL and XML databases</h1>
 
-The main goal of this project is to develop an abstract layer that can connect with different databases (being NoSQL [1] or XML [2]), able to interact in real time with its data, inserting, consulting or editing.
+The main goal of this project is to develop an abstract layer that can connect with different databases (being NoSQL [1] or XML [2]), able to interact in real time with its data, inserting, consulting or editing.  The current version only implemented the utilization of RaptorDB and Sedna, but other databases are being inserted in the project.
 
 This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/comp309/" target="_blank">Special Topics in Database: Management of Semistructured Data</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4764054Y6" target="_blank">Professor Fabio Coutinho</a> and available at <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/ciencia-da-computacao' target='_blank'>Computer Science</a> and <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/engenharia-de-computacao' target='_blank'>Computer Engineering</a> degrees of the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
