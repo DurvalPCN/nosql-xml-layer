@@ -37,7 +37,7 @@ namespace RaptorDBBackground
                 foreach(DataRow row in dataTable.Rows)
                 {
                     var dado = new DistanciasToMaceio();
-                    dado.Municipio = row["Municipio"].ToString();
+                    dado.Cidade = row["Cidade"].ToString();
                     dado.Distancia_linha_reta_da_capital_km = row["Distancia_linha_reta_da_capital_km"].ToString();
                     dado.Distancia_de_conducao_da_capital_km = row["Distancia_de_conducao_da_capital_km"].ToString();
                     dado.Tempo_conducao = row["Tempo_conducao"].ToString();
@@ -70,8 +70,8 @@ namespace RaptorDBBackground
 
         public string query(string query)
         {
-            //  var result = rdb.Query<RowSchema>(x => x.Municipio == "Maceio");
-            var result = rdb.Query<RowSchema>(query);
+          //  var result = rdb.Query<RowSchema>(x => x.Municipio == "Maceio");
+          var result = rdb.Query<RowSchema>(query);
 
             return fastJSON.JSON.ToNiceJSON(result.Rows, new fastJSON.JSONParameters { UseExtensions = false, UseFastGuid = false });
 

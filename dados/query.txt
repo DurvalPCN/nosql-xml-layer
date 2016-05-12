@@ -1,0 +1,7 @@
+SELECT * FROM doc("futebol")/Estadios/Estadio , DistanciasToMaceio WHERE Cidade == "Arapiraca"
+
+select * from doc("futebol")/Estadios/Estadio where Cidade = "Arapiraca"
+
+
+
+doc("futebol")/Estadios/Estadio[Cidade="Arapiraca"]

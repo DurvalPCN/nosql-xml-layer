@@ -24,6 +24,7 @@ using System.Data.Sedna;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
+using Newtonsoft.Json;
 
 namespace Sedna
 {
@@ -372,9 +373,7 @@ namespace Sedna
                     {
                         string filePath = openFileDialog1.FileName;
 
-                        ResultTextBox.Text //= filePath+" Soma= "+_raptorDBProgram.testSoma(13,57);
-
-                      = _raptorDBProgram.insertJson(filePath);//Soh para testes
+                        ResultTextBox.Text = _raptorDBProgram.insertJson(filePath);
                        
                     }
                 }
@@ -408,12 +407,51 @@ namespace Sedna
                 {
                     if(sednaRaptorCheck.Checked)//Consulta em ambos os BDs
                     {
-                        ResultTextBox.Text = "TODO sedna+raptordb selecionado";
+                        analisaQueryComposta(QueryTextBox.Text);
                     }
                 }
             }
             QueryTextBox.SelectAll();
             QueryTextBox.Focus();
+        }
+        public void analisaQueryComposta(string query)
+        {
+            string [] words = query.Split(' ');
+            string novoJson = string.Empty;
+            string novoJson2 = string.Empty;
+
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(ExecuteReadAll(words[3] + "[" + words[5] + "=" + words[7] + "]"));
+
+            // Get and display all the book titles.
+            XmlElement root = doc.DocumentElement;
+            XmlNodeList elemList = root.GetElementsByTagName("Nome");
+            novoJson =  "      \"Nome\" : \""+ (elemList[0].InnerXml)+"\"," + Environment.NewLine;
+            elemList = root.GetElementsByTagName("Propriedade");
+            novoJson += "      \"Propriedade\" : \"" + (elemList[0].InnerXml) + "\","+Environment.NewLine;
+            elemList = root.GetElementsByTagName("Capacidade");
+            novoJson += "      \"Capacidade\" : \"" + (elemList[0].InnerXml) + "\"," + Environment.NewLine;
+            elemList = root.GetElementsByTagName("Longitude");
+            novoJson += "      \"Longitude\" : \"" + (elemList[0].InnerXml) + "\"," + Environment.NewLine;
+            elemList = root.GetElementsByTagName("Latitude");
+            novoJson += "      \"Latitude\" : \"" + (elemList[0].InnerXml) + "\"," + Environment.NewLine;
+            
+            novoJson2 += Environment.NewLine + "{";
+            novoJson2 += Environment.NewLine + "   \"estadio\": {" + Environment.NewLine;
+
+            novoJson2 += novoJson;
+
+            novoJson2 += Environment.NewLine + "      \"cidade\": ";
+            novoJson2 += "          "+_raptorDBProgram.query(words[5] + " = " + words[7]).Replace("[","").Replace("]","");
+
+            novoJson2 += "   }";
+            novoJson2 += Environment.NewLine + "}";
+
+
+            ResultTextBox.Text += novoJson2;
+
+           
+
         }
 
         private void CommitTransactionButton_Click(object sender, EventArgs e) {

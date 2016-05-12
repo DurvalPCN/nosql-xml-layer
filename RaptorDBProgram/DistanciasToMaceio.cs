@@ -9,7 +9,7 @@ namespace RaptorDBBackground
     class DistanciasToMaceio
     {
         public Guid docid { get; set; }
-        public string Municipio { get; set; }
+        public string Cidade { get; set; }
         public string Distancia_linha_reta_da_capital_km { get; set; }
         public string Distancia_de_conducao_da_capital_km { get; set; }
         public string Tempo_conducao { get; set; }

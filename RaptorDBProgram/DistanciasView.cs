@@ -9,7 +9,7 @@ namespace RaptorDBBackground
 {
     public class RowSchema : RDBSchema
     {
-        public string Municipio;
+        public string Cidade;
         public string Distancia_linha_reta_da_capital_km;
         public string Distancia_de_conducao_da_capital_km;
         public string Tempo_conducao;
