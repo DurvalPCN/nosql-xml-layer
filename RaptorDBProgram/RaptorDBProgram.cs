@@ -67,6 +67,17 @@ namespace RaptorDBBackground
             }
            
         }
+
+        public string query(string query)
+        {
+            //  var result = rdb.Query<RowSchema>(x => x.Municipio == "Maceio");
+            var result = rdb.Query<RowSchema>(query);
+
+            return fastJSON.JSON.ToNiceJSON(result.Rows, new fastJSON.JSONParameters { UseExtensions = false, UseFastGuid = false });
+
+        }
+
+
         public void shutdown()
         {
             rdb.Shutdown();

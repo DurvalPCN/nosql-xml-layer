@@ -402,7 +402,7 @@ namespace Sedna
             {
                 if (raptorCheck.Checked)//Consulta no banco RaptorDB
                 {
-                    ResultTextBox.Text = "TODO raptor selecionado";
+                    ResultTextBox.Text = _raptorDBProgram.query(QueryTextBox.Text);
                 }
                 else
                 {
