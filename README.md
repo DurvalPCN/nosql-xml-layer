@@ -10,10 +10,12 @@ In the source files, you can find:
 
 <ul>
 	<li><i>presentation.pdf</i>, a slide presentation presented at the course;</li>
-	<li>to do</li>
+	<li>source files for the project.</li>
 </ul>
 
-Feel 
+We recommend you to use the Visual Studio to avoid compiling/execution errors, since the development of the project was made at this IDE.
+
+Feel free to perform a pull request and help us growing this project.
 
 <h2>Used Databases</h2>
 
