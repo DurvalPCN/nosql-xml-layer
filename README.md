@@ -23,7 +23,7 @@ Feel free to perform a pull request and help us growing this project.
 
 <h4>RaptorDB</h4>
 
-RaptorDB is a NoSQL, JSON [3] based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query [X] filters.
+RaptorDB is a NoSQL, JSON [3] based, Document store database with compiled .net map functions and automatic hybrid bitmap indexing and LINQ query [4] filters.
 
 To know more about <b>RaptorDB</b>, visit the official website <a href="https://raptordb.codeplex.com" target="_blank">here</a>.
 
@@ -31,10 +31,10 @@ To know more about <b>RaptorDB</b>, visit the official website <a href="https://
 
 <h4>Sedna</h4>
 
-Sedna is a free native XML database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C [X] XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
+Sedna is a free native XML database which provides a full range of core database services - persistent storage, ACID transactions, security, indices, hot backup. Flexible XML processing facilities include W3C [5] XQuery implementation, tight integration of XQuery with full-text search facilities and a node-level update language.
 
 To know more about <b>Sedna</b>, visit the official website: <a href="http://www.sedna.org/" target="_blank">Sedna.org</a>
-
+<!--
 <h4>BaseX</h4>
 
 BaseX is a light-weight, high-performance and scalable XML Database engine and XPath/XQuery 3.1 Processor, which includes full support for the W3C Update and Full Text extensions. An interactive and user-friendly GUI frontend gives you great insight into your XML documents.
@@ -46,7 +46,8 @@ To know more about <b>BaseX</b>, visit the official website: <a href="http://bas
 To do.
 
 To know more about <b>eXist</b>, visit the official website: <a href="http://exist-db.org/" target="_blank">exist-db.org</a>
-
+-->
+<!--
 <h2>Preparing your environment</h2>
 
 To do.
@@ -78,13 +79,14 @@ SELECT * FROM doc("futebol")/Estadios WHERE Cidade = '@cidade'
 		}
 	}
 }"
-
+-->
 <h2>References</h2>
 
-[X] NoSQL <br>
-[X] XML <br>
-[X] JSON <br>
-[X] W3C <br>	
+[1] NoSQL, available at < http://nosql-database.org/ > <br>
+[2] XML, available at < https://www.w3.org/XML/ > <br>
+[3] JSON, available at < http://www.json.org/ > <br>
+[4] LINQ Query, available at < https://en.wikipedia.org/wiki/Language_Integrated_Query > <br>
+[5] W3C - World Wide Web Consortium, available at < https://www.w3.org/ > <br>	
 
 <h2>Credits</h2>
 
